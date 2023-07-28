@@ -1,0 +1,54 @@
+<style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #4b10a3;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Resultados de partidos de fútbol</h1>
+
+  <table>
+    <tr>
+      <th>Equipo local</th>
+      <th>Resultado</th>
+      <th>Equipo visitante</th>
+    </tr>
+    <tr>
+      <td>Equipo A</td>
+      <td>3 - 1</td>
+      <td>Equipo B</td>
+    </tr>
+    <tr>
+      <td>Equipo C</td>
+      <td>2 - 2</td>
+      <td>Equipo D</td>
+    </tr>
+    <tr>
+      <td>Equipo E</td>
+      <td>0 - 1</td>
+      <td>Equipo F</td>
+    </tr>
+    <!-- Agrega más filas para más partidos -->
+  </table>
+</body>
+</html>

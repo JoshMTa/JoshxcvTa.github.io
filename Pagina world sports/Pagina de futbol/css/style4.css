@@ -1,0 +1,76 @@
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+  }
+  
+  .teams-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .teams-table th, .teams-table td {
+    padding: 10px;
+    border: 1px solid rgba(108, 35, 6, 0.655);
+  }
+  
+  .teams-table th {
+    background-color: #550065;
+    font-weight: bold;
+  }
+  
+  .teams-table td {
+    text-align: center;
+  }
+  
+  .team-row{
+display: flex;
+align-items:center;
+gap: 0px;
+  }
+  
+  .teams-table img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+footer{
+background-color: #550065;
+
+
+}
+
+.style-img{
+display: flex;
+justify-content: center;
+
+
+
+}
+.contenedor{
+margin-bottom: 20px;
+text-align: center;
+
+}
+
+.contenido .oculto {
+  display: none;
+
+}
+.concepto .btn-leer-mas {
+background-color: #007bff;
+color: beige;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+
+}
+
+.concepto .btn-leer-mas:hover{
+background-color: #0056b3;
+
+}

@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+   
+    font-size: "Roboto"
+}
+
+body
+{
+    height: 100vh;
+
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/aa.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffff;
+display: flex;
+    background-color: black;
+ 
+   
+    
+    text-align: center;
+    
+}
+.asda
+{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+ color: rgb(11, 9, 17);
+ justify-content: space-around;
+ 
+    
+    
+
+}
+
+.asda input
+{
+    max-width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+   
+    margin: auto;
+    background-color: transparent;
+    
+    
+    
+}
+.asda input[type = "button"]
+{
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    background-color: #4caf50;
+    color: #ffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #222;
+}
+
+
+form i
+{
+    color: black;background-color: #ccc;
+  
+}
+
+
+
+    
+
+.conte
+{
+    display: flex;
+    height: 10vh;
+    
+    color: black;
+}
+.ani
+{
+    
+    font-size: 48px;
+    animation-name: up;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    align-items: center;
+    align-content: center;
+    
+}
+
+@keyframes up{
+0%{transform: translateY(0);opacity: 1;}
+50%{transform: translateY(-100px);opacity: 1;}
+100%{transform: translateY(-100px);opacity: 1;}
+}
+
+
+#cum
+{
+    
+color: #000000;
+text-decoration: none;
+place-content: center;
+margin-right: 100px;
+background-color: transparent;
+
+border-radius: 1 1 0;
+}
+
+.footer{
+ bottom: 40%;
+ color: transparent;
+
+
+
+}
+.aaa{
+background-color: #ccc;
+
+
+
+}
